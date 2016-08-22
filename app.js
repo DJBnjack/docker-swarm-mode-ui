@@ -1,8 +1,17 @@
-var koa = require('koa');
+var koa = require("koa");
+var handlebars = require("koa-handlebars");
+
 var app = koa();
 
-app.use(function *(){
-  this.body = 'Hello World';
+app.use(handlebars({
+  defaultLayout: "main"
+}));
+
+app.use(function *() {
+  yield this.render("index", {
+    title: "Test Page",
+    name: "HandlebarWorld!"
+  });
 });
 
-app.listen(3000, "0.0.0.0");
+app.listen(3000);

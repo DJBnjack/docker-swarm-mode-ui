@@ -4,7 +4,8 @@
   "description": "Web UI for the Docker Swarm 1.12 update: showing nodes, services and containers.",
   "main": "app.js",
   "dependencies": {
-    "koa": "^1.2.1"
+    "koa": "^1.2.1",
+    "koa-handlebars": "^0.5.7"
   },
   "devDependencies": {},
   "scripts": {
