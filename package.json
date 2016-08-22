@@ -1,0 +1,24 @@
+{
+  "name": "docker-swarm-mode-ui",
+  "version": "1.0.0",
+  "description": "Web UI for the Docker Swarm 1.12 update: showing nodes, services and containers.",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJBnjack/docker-swarm-mode-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DJBnjack/docker-swarm-mode-ui/issues"
+  },
+  "homepage": "https://github.com/DJBnjack/docker-swarm-mode-ui#readme"
+}
